@@ -20,7 +20,7 @@ jobs:
         extended: true
 
     - name: Build
-      run: hugo --minify --baseURL=https://Leo_Fang.github.io
+      run: hugo --minify --baseURL=https://Leo-Fang-QAQ/Leo_Fang.github.io
 
     - name: Deploy
       uses: peaceiris/actions-gh-pages@v3
